@@ -1,14 +1,17 @@
-const diameter = 500; //max size of the bubbles
+const diameter = 500;
+const height = document.body.clientHeight;
+const width = document.body.clientWidth;
 
 let bubble = d3.pack()
   .size([diameter, diameter])
-  .padding(1.5);
+  .padding(1.5)
 
 let svg = d3.select("body")
   .append("svg")
-  .attr("width", diameter)
-  .attr("height", diameter)
-  .attr("class", "bubble");
+  .attr("width", width)
+  .attr("height", height)
+  .attr("class", "bubble")
+  .style("transform", `translate(${(width-500)/2}px, ${(height-500)/2}px)`);
 
   // d3.csv("https://raw.githubusercontent.com/teachrdan/oscarvis/master/data.csv", function(error, data) {
 d3.csv("./data.csv", function(error, data) {
@@ -34,9 +37,7 @@ d3.csv("./data.csv", function(error, data) {
       .domain([minAge, maxAge])
       .range([1,0.2]);
 
-    const root = { children: [] };
-    root.children = data;
-
+    const root = { children: data };
     let nodes = d3.hierarchy(root)
       .sum(d => d.value);
 
@@ -59,6 +60,9 @@ d3.csv("./data.csv", function(error, data) {
       .text(d => `${d.data.name}, ${d.data.award}`);
 
     node.append("title")
-      .text(d => `Net Worth: $${d.data.networth}`);
+      .text(d => {
+        const netString = d.data.networth.replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
+        return `Net Worth: $${netString}`;
+      });
   }
 });
