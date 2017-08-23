@@ -1,6 +1,6 @@
-id,name,year,dob,award,networth,url,winner
-001,"Emma Stone",2017,"1988-11-06T00:00:01.000Z","Best Actress",28000000,"https://media.self.com/photos/585c0ea98a2a9595367fa2df/4:3/w_752,c_limit/emma-stone-anxiety.jpg",true
-002,"Casey Affleck",2017,"1975-08-12T00:00:01.000Z","Best Actor",10000000,"http://data.whicdn.com/images/183914301/large.jpg",true
-003,"Viola Davis",2017,"1965-08-11T00:00:01.000Z","Best Supporting Actress",3000000,"https://cdn.aarp.net/content/dam/aarp/entertainment/movies/2015-07/1140-viola-davis-cover.imgcache.rev0b875e6f2da0a1f93d70e4a94f23204a.jpg",true
-004,"Mahershala Ali",2017,"1974-02-16T00:00:01.000Z","Best Supporting Actor",8000000,"http://media2.popsugar-assets.com/files/2014/11/20/204/n/1922398/3efd61359478a4a5_thumb_temp_image10906271416541867/i/Mahershala-Ali-Mockingjay-Interview.jpg",true
-005,"Damien Chazelle",2017,"1985-01-19T00:00:01.000Z","Best Director",10000000,"https://images-na.ssl-images-amazon.com/images/M/MV5BMjE2MzcyODA3MV5BMl5BanBnXkFtZTgwNTA3NTU2MjE@._V1_UY317_CR5,0,214,317_AL_.jpg",true
+id,name,gender,year,dob,award,networth,url,winner
+001,"Emma Stone","woman",2017,"1988-11-06T00:00:01.000Z","Best Actress",28000000,"https://media.self.com/photos/585c0ea98a2a9595367fa2df/4:3/w_752,c_limit/emma-stone-anxiety.jpg",true
+002,"Casey Affleck","man",2017,"1975-08-12T00:00:01.000Z","Best Actor",10000000,"http://data.whicdn.com/images/183914301/large.jpg",true
+003,"Viola Davis","woman",2017,"1965-08-11T00:00:01.000Z","Best Supporting Actress",3000000,"https://cdn.aarp.net/content/dam/aarp/entertainment/movies/2015-07/1140-viola-davis-cover.imgcache.rev0b875e6f2da0a1f93d70e4a94f23204a.jpg",true
+004,"Mahershala Ali","man",2017,"1974-02-16T00:00:01.000Z","Best Supporting Actor",8000000,"http://media2.popsugar-assets.com/files/2014/11/20/204/n/1922398/3efd61359478a4a5_thumb_temp_image10906271416541867/i/Mahershala-Ali-Mockingjay-Interview.jpg",true
+005,"Damien Chazelle","man",2017,"1985-01-19T00:00:01.000Z","Best Director",10000000,"https://images-na.ssl-images-amazon.com/images/M/MV5BMjE2MzcyODA3MV5BMl5BanBnXkFtZTgwNTA3NTU2MjE@._V1_UY317_CR5,0,214,317_AL_.jpg",true

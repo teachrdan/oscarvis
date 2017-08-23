@@ -2,6 +2,7 @@ const data = {
 	bestActress: {
 		id: 001,
 		name: "Emma Stone",
+		gender: "woman",
 		year: 2017,
 		dob: "1988-11-06T00:00:01.000Z",
 		award: "Best Actress",
@@ -12,6 +13,7 @@ const data = {
 	bestActor: {
 		id: 002,
 		name: "Casey Affleck",
+		gender: "man",
 		year: 2017,
 		dob: "1975-08-12T00:00:01.000Z",
 		award: "Best Actor",
@@ -22,6 +24,7 @@ const data = {
 	bestSupportingActress: {
 		id: 003,
 		name: "Viola Davis",
+		gender: "woman",
 		year: 2017,
 		dob: "1965-08-11T00:00:01.000Z",
 		award: "Best Supporting Actress",
@@ -32,6 +35,7 @@ const data = {
 	bestSupportingActor: {
 		id: 004,
 		name: "Mahershala Ali",
+		gender: "man",
 		year: 2017,
 		dob: "1974-02-16T00:00:01.000Z",
 		award: "Best Supporting Actor",
@@ -42,6 +46,7 @@ const data = {
 	bestDirector: {
 		id: 005,
 		name: "Damien Chazelle",
+		gender: "man",
 		year: 2017,
 		dob: "1985-01-19T00:00:01.000Z",
 		award: "Best Director",
